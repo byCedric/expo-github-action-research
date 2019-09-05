@@ -8,7 +8,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
+      - uses: bycedric/expo-github-action-concept@master
+      - with:
+          version: latest
       - run: npm install
-      - uses: ./actions/docker
-        with:
-          args: doctor
+      - run: expo doctor
