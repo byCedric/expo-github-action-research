@@ -9,7 +9,7 @@ jobs:
         with:
           node-version: '12'
       - uses: bycedric/expo-github-action-concept@master
-      - with:
+        with:
           version: latest
       - run: npm install
       - run: expo doctor
