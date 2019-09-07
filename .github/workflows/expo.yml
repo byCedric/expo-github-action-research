@@ -11,4 +11,4 @@ jobs:
       - uses: bycedric/expo-github-action-concept@master
         with:
           version: latest
-      - run: /home/runner/work/_actions/bycedric/expo-github-action-concept/master/build/../bin/expo --version
+      - run: expo --version
