@@ -11,5 +11,4 @@ jobs:
       - uses: bycedric/expo-github-action-concept@master
         with:
           version: latest
-      - run: npm install
-      - run: expo doctor
+      - run: /home/runner/work/_actions/bycedric/expo-github-action-concept/master/build/../bin/expo doctor
