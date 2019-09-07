@@ -11,4 +11,6 @@ jobs:
       - uses: bycedric/expo-github-action-concept@master
         with:
           version: latest
+          username: bycedric
+          password: ${secrets.password}
       - run: expo --version
