@@ -10,9 +10,9 @@ jobs:
           node-version: '12'
       - uses: bycedric/expo-github-action-concept@master
         with:
-          version: latest
-          username: bycedric
-          password: ${secrets.password}
+          expo-version: 3.0.9
+          expo-username: bycedric
+          expo-password: ${secrets.password}
       - run: npm ci
       - run: expo doctor
       - run: expo diagnostics
