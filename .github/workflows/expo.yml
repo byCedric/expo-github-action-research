@@ -13,4 +13,5 @@ jobs:
           version: latest
           username: bycedric
           password: ${secrets.password}
+      - run: expo doctor
       - run: expo --version
